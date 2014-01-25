@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget size="400 400" name="B2H6">
+      <VirtualButton name="ejex" rectangle="108.4711 -64.12013 188.4711 -92.12013" enabled="true" sensitivity="low" />
+      <VirtualButton name="ejey" rectangle="109.2524 -112.1936 189.2524 -140.1936" enabled="true" sensitivity="low" />
+      <VirtualButton name="Ejex" rectangle="110.3558 -159.5916 190.3558 -187.5916" enabled="true" sensitivity="low" />
+      <VirtualButton name="green" rectangle="108.4711 -64.12013 188.4711 -92.12013" enabled="true" sensitivity="low" />
+      <VirtualButton name="ejez" rectangle="110.3558 -159.5916 190.3558 -187.5916" enabled="true" sensitivity="low" />
+      <VirtualButton name="pause" rectangle="-184.775 17.18646 -152.775 -10.81354" enabled="true" sensitivity="low" />
+      <VirtualButton name="planos" rectangle="5.398338 -113.1173 85.39835 -141.1173" enabled="true" sensitivity="low" />
+      <VirtualButton name="play" rectangle="-187.4845 75.41223 -155.4845 47.41223" enabled="true" sensitivity="low" />
+      <VirtualButton name="red" rectangle="5.398338 -113.1173 85.39835 -141.1173" enabled="true" sensitivity="low" />
+      <VirtualButton name="stop" rectangle="-187.2668 -46.05499 -155.2668 -74.05499" enabled="true" sensitivity="low" />
+      <VirtualButton name="yellow" rectangle="109.2524 -112.1936 189.2524 -140.1936" enabled="true" sensitivity="low" />
+    </ImageTarget>
+  </Tracking>
+</QCARConfig>

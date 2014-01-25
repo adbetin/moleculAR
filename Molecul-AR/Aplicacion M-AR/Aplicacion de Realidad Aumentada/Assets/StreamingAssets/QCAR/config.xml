@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget size="284 284" name="CO3">
+      <VirtualButton name="planos" rectangle="63.89103 -95.49992 134.8912 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C6H6" />
+    <ImageTarget size="284 284" name="C808" />
+    <ImageTarget size="284 284" name="CCL3H" />
+    <ImageTarget size="284 284" name="CO" />
+    <ImageTarget size="284 284" name="H2O" />
+    <ImageTarget size="284 284" name="H2O2" />
+    <ImageTarget size="284 284" name="HCL" />
+    <ImageTarget size="284 284" name="N2O4" />
+    <ImageTarget size="284 284" name="NH3">
+      <VirtualButton name="planos" rectangle="63.89103 -95.49992 134.8912 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="AuCl4">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="medium" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="B2H6">
+      <VirtualButton name="planos" rectangle="63.89105 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="BF3">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77679 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="BO3H3">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="medium" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="CO2">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="medium" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C2H2">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C2H2CL2">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="medium" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C5H5">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77679 43.56494 -124.1768" enabled="true" sensitivity="medium" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C7H7">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77679 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="C8H8" />
+    <ImageTarget size="284 284" name="CH4">
+      <VirtualButton name="planos" rectangle="63.89103 -95.49992 134.8912 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="FeC6H62" />
+    <ImageTarget size="284 284" name="H2" />
+    <ImageTarget size="284 284" name="NHF2" />
+    <ImageTarget size="284 284" name="NO3">
+      <VirtualButton name="planos" rectangle="63.89103 -95.49992 134.8912 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="OCS" />
+    <ImageTarget size="284 284" name="PCL3" />
+    <ImageTarget size="284 284" name="PCL5" />
+    <ImageTarget size="284 284" name="POCL3" />
+    <ImageTarget size="284 284" name="PTCL4">
+      <VirtualButton name="planos" rectangle="63.89101 -95.49992 134.8911 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77684 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="SF2O">
+      <VirtualButton name="planos" rectangle="63.89103 -95.49992 134.8912 -123.8999" enabled="true" sensitivity="low" />
+      <VirtualButton name="rotar" rectangle="-27.43506 -95.77679 43.56494 -124.1768" enabled="true" sensitivity="low" />
+    </ImageTarget>
+    <ImageTarget size="284 284" name="SF6" />
+    <ImageTarget size="284 284" name="SICL4" />
+    <ImageTarget size="284 284" name="SO2CL2" />
+    <ImageTarget size="284 284" name="XEF4" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EventosBotonesB2H6.cs">
+    <Files>
+      <File FileName="Assets\Scripts\EventosBotonesB2H6.cs" Line="46" Column="21" />
+      <File FileName="Assets\Scripts\EventosBotonesCO2.cs" Line="47" Column="20" />
+      <File FileName="Assets\StreamingAssets\QCAR\config.xml" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EventosBotonesCH4.cs" Line="22" Column="3" />
+      <File FileName="Assets\Scripts\EventosBotonesAuCl4.cs" Line="50" Column="23" />
+      <File FileName="Assets\Scripts\EventosBotonesCO3.cs" Line="47" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

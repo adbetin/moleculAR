@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{6F20AFFE-2269-C5B6-3558-8A32242122E9}") = "Aplicacion 2 Molecular", "Assembly-CSharp-vs.csproj", "{FAEBF9B4-5187-4F1E-E204-B74517594DC1}"
+EndProject
+Project("{6F20AFFE-2269-C5B6-3558-8A32242122E9}") = "Aplicacion 2 Molecular", "Assembly-CSharp-Editor-vs.csproj", "{DCA36726-6640-58EF-0D97-1BB92790D744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEBF9B4-5187-4F1E-E204-B74517594DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEBF9B4-5187-4F1E-E204-B74517594DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEBF9B4-5187-4F1E-E204-B74517594DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEBF9B4-5187-4F1E-E204-B74517594DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA36726-6640-58EF-0D97-1BB92790D744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA36726-6640-58EF-0D97-1BB92790D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA36726-6640-58EF-0D97-1BB92790D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA36726-6640-58EF-0D97-1BB92790D744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
