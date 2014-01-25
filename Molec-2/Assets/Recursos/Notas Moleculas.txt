@@ -1,0 +1,10 @@
+H2O
+->Molecula .blend
+->Render
+->Archivo GIMP
+->Marcador
+->Animaciones: SOlo se debe establecer los ejes
+
+AuCl4
+->Molecula .blend
+->Render
