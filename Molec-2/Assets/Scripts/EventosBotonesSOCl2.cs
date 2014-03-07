@@ -102,6 +102,9 @@ public class EventosBotonesSOCl2 :    MonoBehaviour,
 						SOCl2.animation.PlayQueued("plano_Oh");
 					
 				}
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Quitar Planos")){
+						SOCl2.animation.PlayQueued("quieto");
+				}
 			}
 			
 		}	

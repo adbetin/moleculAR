@@ -8,9 +8,6 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
     
     private GameObject AuCl4;
 	public static bool activo=false;
-	/*private GameObject txtX;
-	private GameObject txtY;
-	private GameObject txtZ;*/
 	int menu=0;
     void Start()
     {
@@ -41,8 +38,6 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
         {
            case "ejes":
 				Debug.Log("Presiono eje_c2");
-				//H2O.animation.PlayQueued("eje");
-				//H2O.animation.PlayQueued("quieto");
 				if(menu==1){
 					menu=0;
 				}else{
@@ -51,8 +46,6 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
 				break;
 			case "planos":
 				Debug.Log("Presiono plano_sigma1");
-				//H2O.animation.PlayQueued("planos");
-				//H2O.animation.PlayQueued("quieto");
 				if(menu==2){
 					menu=0;
 				}else{
@@ -97,49 +90,59 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
 				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C4")){
+					AuCl4.animation.PlayQueued("salidaEje_C4");
 					AuCl4.animation.PlayQueued("eje_C4");
 					AuCl4.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C2 a")){
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C4-3")){
+					AuCl4.animation.PlayQueued("salidaEje_C4");
+					AuCl4.animation.PlayQueued("eje_C4");
+					AuCl4.animation.PlayQueued("eje_C4");
+					AuCl4.animation.PlayQueued("eje_C4");
+					AuCl4.animation.PlayQueued("quieto");
+				}
+				
+				
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2")){
 					AuCl4.animation.PlayQueued("eje_C2a");
 					AuCl4.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2 b")){
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2'(a)")){
 					AuCl4.animation.PlayQueued("eje_C2b");
 					AuCl4.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2 c")){
-					AuCl4.animation.PlayQueued("eje_C2c");
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2'(b)")){
+					AuCl4.animation.PlayQueued("eje_C2e");
 					AuCl4.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2 d")){
+				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2''(a)")){
 					AuCl4.animation.PlayQueued("eje_C2d");
 					AuCl4.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2 e")){
-					AuCl4.animation.PlayQueued("eje_C2e");
+				if(GUI.Button(new Rect(15, 180, 150, 50), "Eje C2''(b)")){
+					AuCl4.animation.PlayQueued("eje_C2c");
 					AuCl4.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O(a)")){
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O")){
 						AuCl4.animation.PlayQueued("plano_Oa");
 					
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano O(b)")){
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(a)")){
 						AuCl4.animation.PlayQueued("plano_Ob");
 						
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano O(c)")){
-						AuCl4.animation.PlayQueued("plano_Oc");
-						
-				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano O(d)")){
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(b)")){
 						AuCl4.animation.PlayQueued("plano_Od");
 						
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Plano O(e)")){
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano Od(a)")){
+						AuCl4.animation.PlayQueued("plano_Oc");
+						
+				}
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Plano Od(b)")){
 						AuCl4.animation.PlayQueued("plano_Oe");
 						
 				}
