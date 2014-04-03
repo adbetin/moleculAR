@@ -150,7 +150,9 @@
      <Compile Include="Assets\Scripts\EventosBotonesAuCl4.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesB2H6.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesBrCClFH.cs" />
+     <Compile Include="Assets\Scripts\EventosBotonesC6H10N2O2.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesC6H6.cs" />
+     <Compile Include="Assets\Scripts\EventosBotonesCClBrHCClBrH.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesCH4.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesCO2.cs" />
      <Compile Include="Assets\Scripts\EventosBotonesCO3.cs" />
@@ -161,7 +163,9 @@
      <Compile Include="Assets\Scripts\TrackableAuCl4.cs" />
      <Compile Include="Assets\Scripts\TrackableB2H6.cs" />
      <Compile Include="Assets\Scripts\TrackableBrCClFH.cs" />
+     <Compile Include="Assets\Scripts\TrackableC6H10N2O2.cs" />
      <Compile Include="Assets\Scripts\TrackableC6H6.cs" />
+     <Compile Include="Assets\Scripts\TrackableCClBrHCClBrH.cs" />
      <Compile Include="Assets\Scripts\TrackableCH4.cs" />
      <Compile Include="Assets\Scripts\TrackableCO2.cs" />
      <Compile Include="Assets\Scripts\TrackableCO3.cs" />

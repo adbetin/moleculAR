@@ -90,12 +90,10 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
 				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C4")){
-					AuCl4.animation.PlayQueued("salidaEje_C4");
 					AuCl4.animation.PlayQueued("eje_C4");
 					AuCl4.animation.PlayQueued("quieto");
 				}
 				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C4-3")){
-					AuCl4.animation.PlayQueued("salidaEje_C4");
 					AuCl4.animation.PlayQueued("eje_C4");
 					AuCl4.animation.PlayQueued("eje_C4");
 					AuCl4.animation.PlayQueued("eje_C4");

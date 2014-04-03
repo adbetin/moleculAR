@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="BrCClFH" size="500.000000 500.000000" />
     <ImageTarget name="H2O2" size="500.000000 500.000000" />
-    <ImageTarget name="SOCl2" size="500.000000 500.000000" />
-    <ImageTarget name="C5H5" size="500.000000 500.000000" />
+    <ImageTarget name="BrCClFH" size="500.000000 500.000000" />
+    <ImageTarget name="Fe_C5H5_2" size="500.000000 500.000000" />
     <ImageTarget name="AuCl4" size="500.000000 500.000000" />
-    <ImageTarget name="CO2" size="500.000000 500.000000" />
+    <ImageTarget name="C_C6H6_4" size="500.000000 500.000000" />
     <ImageTarget name="CO3" size="500.000000 500.000000" />
+    <ImageTarget name="CO2" size="500.000000 500.000000" />
     <ImageTarget name="C8H8" size="500.000000 500.000000" />
     <ImageTarget name="NH3" size="500.000000 500.000000" />
-    <ImageTarget name="C2H6" size="500.000000 500.000000" />
-    <ImageTarget name="C2H2Cl2" size="500.000000 500.000000" />
-    <ImageTarget name="BO3H3" size="500.000000 500.000000" />
-    <ImageTarget name="HCl" size="500.000000 500.000000" />
-    <ImageTarget name="B2H6" size="500.000000 500.000000" />
-    <ImageTarget name="C6H6" size="500.000000 500.000000" />
-    <ImageTarget name="H2O" size="500.000000 500.000000" />
-    <ImageTarget name="CH4" size="500.000000 500.000000" />
-    <ImageTarget name="Mn2_CO_10" size="500.000000 500.000000" />
-    <ImageTarget name="Fe_C5H5_2" size="500.000000 500.000000" />
-    <ImageTarget name="PPh3" size="500.000000 500.000000" />
     <ImageTarget name="C3H4" size="500.000000 500.000000" />
-    <ImageTarget name="BF3" size="500.000000 500.000000" />
+    <ImageTarget name="C6H3_OH_3" size="500.000000 500.000000" />
+    <ImageTarget name="BO3H3" size="500.000000 500.000000" />
+    <ImageTarget name="XeOF4" size="500.000000 500.000000" />
+    <ImageTarget name="B2H6" size="500.000000 500.000000" />
+    <ImageTarget name="H2O" size="500.000000 500.000000" />
+    <ImageTarget name="C6H6" size="500.000000 500.000000" />
+    <ImageTarget name="CH4" size="500.000000 500.000000" />
+    <ImageTarget name="N_C6Cl5_3" size="500.000000 500.000000" />
+    <ImageTarget name="SOCl2" size="500.000000 500.000000" />
+    <ImageTarget name="C5H5" size="500.000000 500.000000" />
+    <ImageTarget name="CClBrHCClBrH" size="500.000000 500.000000" />
+    <ImageTarget name="C2H6" size="500.000000 500.000000" />
+    <ImageTarget name="Mn2_CO_10" size="500.000000 500.000000" />
+    <ImageTarget name="C2H2Cl2" size="500.000000 500.000000" />
+    <ImageTarget name="HCl" size="500.000000 500.000000" />
+    <ImageTarget name="PPh3" size="500.000000 500.000000" />
+    <ImageTarget name="C10H16" size="500.000000 500.000000" />
+    <ImageTarget name="HOCH2CH2OH" size="500.000000 500.000000" />
+    <ImageTarget name="C6H10N2O2" size="500.000000 500.000000" />
+    <ImageTarget name="Fe_C5H5N_6" size="500.000000 500.000000" />
   </Tracking>
 </QCARConfig>

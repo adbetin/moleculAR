@@ -116,4 +116,10 @@ public class EventosBotonesH2O :    MonoBehaviour,
 			
 		}	
 	}
+	
+	void Update(){
+		Debug.Log("Va a actualizar");
+  		if (Input.GetKeyDown(KeyCode.Escape)) 
+   			Application.Quit(); 
+	}
 }
