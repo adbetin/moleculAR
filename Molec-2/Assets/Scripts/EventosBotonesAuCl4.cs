@@ -37,7 +37,7 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
         switch (vb.VirtualButtonName)
         {
            case "ejes":
-				Debug.Log("Presiono eje_c2");
+				Debug.Log("Presiono ejes");
 				if(menu==1){
 					menu=0;
 				}else{
@@ -45,7 +45,7 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
 				}			
 				break;
 			case "planos":
-				Debug.Log("Presiono plano_sigma1");
+				Debug.Log("Presiono planos");
 				if(menu==2){
 					menu=0;
 				}else{
@@ -73,15 +73,11 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
     // Called when the virtual button has just been released:
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-      
-
-       
     }
 
 	 public void OnMouseEnter() {
         //if (!H2O.animation.IsPlaying("plano"))
         	//txtZ.SetActiveRecursively(true);
-		
     }
 	
 	private void OnGUI(){

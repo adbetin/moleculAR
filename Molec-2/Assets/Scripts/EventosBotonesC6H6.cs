@@ -23,7 +23,6 @@ public class EventosBotonesC6H6 :    MonoBehaviour,
 
         // Get handle to the teapot object
         C6H6 =GameObject.Find("C6H6");
-		//teoriaAudio.audio.Stop();
 		C6H6.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
@@ -40,9 +39,7 @@ public class EventosBotonesC6H6 :    MonoBehaviour,
         switch (vb.VirtualButtonName)
         {
            case "ejes":
-				Debug.Log("Presiono eje_c2");
-				//H2O.animation.PlayQueued("eje");
-				//H2O.animation.PlayQueued("quieto");
+				Debug.Log("Presiono ejes");
 				if(menu==1){
 					menu=0;
 				}else{
@@ -50,9 +47,7 @@ public class EventosBotonesC6H6 :    MonoBehaviour,
 				}			
 				break;
 			case "planos":
-				Debug.Log("Presiono plano_sigma1");
-				//H2O.animation.PlayQueued("planos");
-				//H2O.animation.PlayQueued("quieto");
+				Debug.Log("Presiono planos");
 				if(menu==2){
 					menu=0;
 				}else{
@@ -80,9 +75,6 @@ public class EventosBotonesC6H6 :    MonoBehaviour,
     // Called when the virtual button has just been released:
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-      
-
-       
     }
 
 	 public void OnMouseEnter() {

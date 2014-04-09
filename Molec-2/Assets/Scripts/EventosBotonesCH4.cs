@@ -8,9 +8,6 @@ public class EventosBotonesCH4 :    MonoBehaviour,
     
     private GameObject CH4;
 	public static bool activo=false;
-	/*private GameObject txtX;
-	private GameObject txtY;
-	private GameObject txtZ;*/
 	int menu=0;
     void Start()
     {
@@ -23,7 +20,6 @@ public class EventosBotonesCH4 :    MonoBehaviour,
 
         // Get handle to the teapot object
         CH4 =GameObject.Find("CH4");
-		//teoriaAudio.audio.Stop();
 		CH4.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
@@ -75,10 +71,7 @@ public class EventosBotonesCH4 :    MonoBehaviour,
 
     // Called when the virtual button has just been released:
     public void OnButtonReleased(VirtualButtonBehaviour vb)
-    {
-      
-
-       
+    { 
     }
 
 	 public void OnMouseEnter() {

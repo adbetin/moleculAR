@@ -8,9 +8,6 @@ public class EventosBotonesCO3 :    MonoBehaviour,
     
     private GameObject CO3;
 	public static bool activo=false;
-	/*private GameObject txtX;
-	private GameObject txtY;
-	private GameObject txtZ;*/
 	int menu=0;
     void Start()
     {
@@ -23,7 +20,6 @@ public class EventosBotonesCO3 :    MonoBehaviour,
 
         // Get handle to the teapot object
         CO3 =GameObject.Find("CO3");
-		//teoriaAudio.audio.Stop();
 		CO3.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
@@ -40,9 +36,7 @@ public class EventosBotonesCO3 :    MonoBehaviour,
         switch (vb.VirtualButtonName)
         {
            case "ejes":
-				Debug.Log("Presiono eje_c2");
-				//H2O.animation.PlayQueued("eje");
-				//H2O.animation.PlayQueued("quieto");
+				Debug.Log("Presiono ejes");
 				if(menu==1){
 					menu=0;
 				}else{
@@ -50,9 +44,7 @@ public class EventosBotonesCO3 :    MonoBehaviour,
 				}			
 				break;
 			case "planos":
-				Debug.Log("Presiono plano_sigma1");
-				//H2O.animation.PlayQueued("planos");
-				//H2O.animation.PlayQueued("quieto");
+				Debug.Log("Presiono planos");
 				if(menu==2){
 					menu=0;
 				}else{
@@ -80,9 +72,6 @@ public class EventosBotonesCO3 :    MonoBehaviour,
     // Called when the virtual button has just been released:
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-      
-
-       
     }
 
 	 public void OnMouseEnter() {

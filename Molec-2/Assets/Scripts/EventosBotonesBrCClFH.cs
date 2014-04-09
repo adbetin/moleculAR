@@ -98,7 +98,6 @@ public class EventosBotonesBrCClFH :    MonoBehaviour,
 			}
 			else if(menu==2){
 			}
-			
 		}	
 	}
 }

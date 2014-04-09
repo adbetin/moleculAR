@@ -20,7 +20,6 @@ public class EventosBotonesCClBrHCClBrH :    MonoBehaviour,
 
         // Get handle to the teapot object
         CClBrHCClBrH =GameObject.Find("CClBrHCClBrH");
-		//teoriaAudio.audio.Stop();
 		CClBrHCClBrH.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
