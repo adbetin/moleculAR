@@ -19,7 +19,7 @@ public class EventosBotonesHCl :    MonoBehaviour,
         }
 
         // Get handle to the teapot object
-        HCl =GameObject.Find("HCl");
+        HCl =GameObject.Find("HCL");
 		HCl.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");

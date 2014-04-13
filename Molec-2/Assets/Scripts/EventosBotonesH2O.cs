@@ -84,19 +84,24 @@ public class EventosBotonesH2O :    MonoBehaviour,
 		if(EventosBotonesH2O.activo){
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Animacion eje 1")){
-					H2O.animation.PlayQueued("eje");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C2")){
+					H2O.animation.PlayQueued("eje_C2");
 					H2O.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Planos")){
-						H2O.animation.PlayQueued("planos");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano Ov(xz)")){
+					H2O.animation.PlayQueued("plano_Ov");
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Quitar Planos")){
-						
-						H2O.animation.PlayQueued("quieto");
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(yz)")){
+					H2O.animation.PlayQueued("plano_Ovp");
+				}
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Planos")){
+					H2O.animation.PlayQueued("plano_todos");
+				}
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Quitar Planos")){
+					H2O.animation.PlayQueued("quieto");
 				}
 			}
 			

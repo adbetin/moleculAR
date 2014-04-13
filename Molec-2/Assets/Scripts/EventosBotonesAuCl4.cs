@@ -120,7 +120,7 @@ public class EventosBotonesAuCl4 :    MonoBehaviour,
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O")){
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano Oh")){
 						AuCl4.animation.PlayQueued("plano_Oa");
 					
 				}

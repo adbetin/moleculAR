@@ -20,7 +20,6 @@ public class EventosBotonesBO3H3:    MonoBehaviour,
 
         // Get handle to the teapot object
         BO3H3 =GameObject.Find("BO3H3");
-		//teoriaAudio.audio.Stop();
 		BO3H3.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");

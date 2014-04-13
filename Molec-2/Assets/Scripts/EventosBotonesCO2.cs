@@ -84,22 +84,22 @@ public class EventosBotonesCO2 :    MonoBehaviour,
 		if(EventosBotonesCO2.activo){
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C2a")){
-					CO2.animation.PlayQueued("eje_C2a");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje inf-C2")){
+					CO2.animation.PlayQueued("eje_infC2");
 					CO2.animation.PlayQueued("quieto");	
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2b")){
-					CO2.animation.PlayQueued("eje_C2b");
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C-inf")){
+					CO2.animation.PlayQueued("eje_Cinf");
 					CO2.animation.PlayQueued("quieto");	
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O(a)")){
-						CO2.animation.PlayQueued("plano_Oa");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano inf-O")){
+						CO2.animation.PlayQueued("plano_infO");
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano O(b)")){
-						CO2.animation.PlayQueued("plano_Ob");
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Od")){
+						CO2.animation.PlayQueued("plano_Od");
 				}
 				if(GUI.Button(new Rect(15, 70, 150, 50), "Todos los Planos")){
 						CO2.animation.PlayQueued("plano_todos");

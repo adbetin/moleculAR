@@ -19,8 +19,7 @@ public class EventosBotonesPPH3 :    MonoBehaviour,
         }
 
         // Get handle to the teapot object
-        PPH3 =GameObject.Find("PPH3");
-		//teoriaAudio.audio.Stop();
+        PPH3 =GameObject.Find("PPh3");
 		PPH3.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
@@ -85,67 +84,13 @@ public class EventosBotonesPPH3 :    MonoBehaviour,
 		if(EventosBotonesPPH3.activo){
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C4")){
-					PPH3.animation.PlayQueued("eje_C4");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C4-3")){
-					PPH3.animation.PlayQueued("eje_C4");
-					PPH3.animation.PlayQueued("eje_C4");
-					PPH3.animation.PlayQueued("eje_C4");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				
-				
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2")){
-					PPH3.animation.PlayQueued("eje_C2a");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2'(a)")){
-					PPH3.animation.PlayQueued("eje_C2b");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2'(b)")){
-					PPH3.animation.PlayQueued("eje_C2e");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2''(a)")){
-					PPH3.animation.PlayQueued("eje_C2d");
-					PPH3.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Eje C2''(b)")){
-					PPH3.animation.PlayQueued("eje_C2c");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C3")){
+					PPH3.animation.PlayQueued("eje_C3");
 					PPH3.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O")){
-						PPH3.animation.PlayQueued("plano_Oa");
-					
-				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(a)")){
-						PPH3.animation.PlayQueued("plano_Ob");
-						
-				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(b)")){
-						PPH3.animation.PlayQueued("plano_Od");
-						
-				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano Od(a)")){
-						PPH3.animation.PlayQueued("plano_Oc");
-						
-				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Plano Od(b)")){
-						PPH3.animation.PlayQueued("plano_Oe");
-						
-				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Todos los Planos")){
-						PPH3.animation.PlayQueued("plano_todos");
-				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Quitar Planos")){
-						PPH3.animation.PlayQueued("quieto");
-				}
 			}
 			
 		}	

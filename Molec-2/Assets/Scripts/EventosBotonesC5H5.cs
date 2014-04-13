@@ -84,69 +84,70 @@ public class EventosBotonesC5H5 :    MonoBehaviour,
 		if(EventosBotonesC5H5.activo){
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C4")){
-					C5H5.animation.PlayQueued("eje_C4");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C5")){
+					C5H5.animation.PlayQueued("eje_C5");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C4-3")){
-					C5H5.animation.PlayQueued("eje_C4");
-					C5H5.animation.PlayQueued("eje_C4");
-					C5H5.animation.PlayQueued("eje_C4");
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C5-2")){
+					C5H5.animation.PlayQueued("eje_C5-2");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				
-				
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2")){
+				if(GUI.Button(new Rect(325, 15, 150, 50), "Eje C5-3")){
+					C5H5.animation.PlayQueued("eje_C5-3");
+					C5H5.animation.PlayQueued("quieto");
+				}
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C5-4")){
+					C5H5.animation.PlayQueued("eje_C5-4");
+					C5H5.animation.PlayQueued("quieto");
+				}
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2(a)")){
 					C5H5.animation.PlayQueued("eje_C2a");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2'(a)")){
+				if(GUI.Button(new Rect(325, 70, 150, 50), "Eje C2(b)")){
 					C5H5.animation.PlayQueued("eje_C2b");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2'(b)")){
-					C5H5.animation.PlayQueued("eje_C2e");
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2(c)")){
+					C5H5.animation.PlayQueued("eje_C2c");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2''(a)")){
+				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2(d)")){
 					C5H5.animation.PlayQueued("eje_C2d");
 					C5H5.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Eje C2''(b)")){
-					C5H5.animation.PlayQueued("eje_C2c");
+				if(GUI.Button(new Rect(325, 125, 150, 50), "Eje C2(e)")){
+					C5H5.animation.PlayQueued("eje_C2e");
 					C5H5.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O")){
-						C5H5.animation.PlayQueued("plano_Oa");
-					
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano Oh")){
+						C5H5.animation.PlayQueued("plano_Oh");
 				}
 				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(a)")){
-						C5H5.animation.PlayQueued("plano_Ob");
-						
+						C5H5.animation.PlayQueued("plano_Ova");						
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(b)")){
-						C5H5.animation.PlayQueued("plano_Od");
-						
+				if(GUI.Button(new Rect(325, 15, 150, 50), "Plano Ov(b)")){
+						C5H5.animation.PlayQueued("plano_Ovb");						
 				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano Od(a)")){
-						C5H5.animation.PlayQueued("plano_Oc");
-						
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(c)")){
+						C5H5.animation.PlayQueued("plano_Ovc");						
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Plano Od(b)")){
-						C5H5.animation.PlayQueued("plano_Oe");
-						
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano Ov(d)")){
+						C5H5.animation.PlayQueued("plano_Ovd");						
 				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Todos los Planos")){
+				if(GUI.Button(new Rect(325, 70, 150, 50), "Plano Ov(e)")){
+						C5H5.animation.PlayQueued("plano_Ove");						
+				}
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Todos los Planos")){
 						C5H5.animation.PlayQueued("plano_todos");
 				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Quitar Planos")){
+				if(GUI.Button(new Rect(170, 125, 150, 50), "Quitar Planos")){
 						C5H5.animation.PlayQueued("quieto");
 				}
 			}
-			
 		}	
 	}
 }

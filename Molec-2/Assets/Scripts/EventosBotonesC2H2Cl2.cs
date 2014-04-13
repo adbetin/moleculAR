@@ -20,7 +20,6 @@ public class EventosBotonesC2H2Cl2 :    MonoBehaviour,
 
         // Get handle to the teapot object
         C2H2Cl2 =GameObject.Find("C2H2Cl2");
-		//teoriaAudio.audio.Stop();
 		C2H2Cl2.SetActiveRecursively(true);
 		menu=0;
 		Debug.Log("termino de Iniciar");
@@ -96,7 +95,7 @@ public class EventosBotonesC2H2Cl2 :    MonoBehaviour,
 						C2H2Cl2.animation.PlayQueued("plano_Oh");
 					
 				}
-				if(GUI.Button(new Rect(70, 15, 150, 50), "Quitar Planos")){
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Quitar Planos")){
 						C2H2Cl2.animation.PlayQueued("quieto");
 				}
 			}

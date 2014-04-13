@@ -85,22 +85,22 @@ public class EventosBotonesC10H16 :    MonoBehaviour,
 		if(EventosBotonesC10H16.activo){
 			if(menu==1){
 				Debug.Log("Esta mostrando el boton ejes");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C2x")){
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Eje C2(x)")){
 					C10H16.animation.PlayQueued("eje_C2x");
 					C10H16.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C2y")){
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Eje C2(y)")){
 					C10H16.animation.PlayQueued("eje_C2y");
 					C10H16.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2z")){
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C2(z)")){
 					C10H16.animation.PlayQueued("eje_C2z");
 					C10H16.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
+				Debug.Log("esta mostrando el boton planos");
 			}
-			
 		}	
 	}
 }

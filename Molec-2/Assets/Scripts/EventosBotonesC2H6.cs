@@ -97,49 +97,30 @@ public class EventosBotonesC2H6 :    MonoBehaviour,
 					C2H6.animation.PlayQueued("eje_C2a");
 					C2H6.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2'(a)")){
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Eje C2(b)")){
 					C2H6.animation.PlayQueued("eje_C2b");
 					C2H6.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2'(b)")){
-					C2H6.animation.PlayQueued("eje_C2e");
-					C2H6.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Eje C2''(a)")){
-					C2H6.animation.PlayQueued("eje_C2d");
-					C2H6.animation.PlayQueued("quieto");
-				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Eje C2''(b)")){
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Eje C2(c)")){
 					C2H6.animation.PlayQueued("eje_C2c");
 					C2H6.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O")){
-						C2H6.animation.PlayQueued("plano_Oa");
-					
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano Od(a)")){
+						C2H6.animation.PlayQueued("plano_Oda");
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(a)")){
-						C2H6.animation.PlayQueued("plano_Ob");
-						
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Od(b)")){
+						C2H6.animation.PlayQueued("plano_Odb");
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(b)")){
-						C2H6.animation.PlayQueued("plano_Od");
-						
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Od(c)")){
+						C2H6.animation.PlayQueued("plano_Odc");
 				}
-				if(GUI.Button(new Rect(170, 70, 150, 50), "Plano Od(a)")){
-						C2H6.animation.PlayQueued("plano_Oc");
-						
-				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Plano Od(b)")){
-						C2H6.animation.PlayQueued("plano_Oe");
-						
-				}
-				if(GUI.Button(new Rect(170, 125, 150, 50), "Todos los Planos")){
+				if(GUI.Button(new Rect(170, 70, 150, 50), "Todos los Planos")){
 						C2H6.animation.PlayQueued("plano_todos");
 				}
-				if(GUI.Button(new Rect(15, 180, 150, 50), "Quitar Planos")){
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Quitar Planos")){
 						C2H6.animation.PlayQueued("quieto");
 				}
 			}

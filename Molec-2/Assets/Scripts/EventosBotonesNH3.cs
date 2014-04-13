@@ -88,29 +88,30 @@ public class EventosBotonesNH3 :    MonoBehaviour,
 					NH3.animation.PlayQueued("eje_C3");
 					NH3.animation.PlayQueued("quieto");
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C3(2)")){
-					NH3.animation.PlayQueued("eje_C3(2)");
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Eje C3-2")){
+					NH3.animation.PlayQueued("eje_C3");
+					NH3.animation.PlayQueued("eje_C3");
 					NH3.animation.PlayQueued("quieto");
 				}
 			}
 			else if(menu==2){
 				Debug.Log("esta mostrando el boton planos");
-				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano O(a)")){
-						NH3.animation.PlayQueued("plano_sa");
+				if(GUI.Button(new Rect(15, 15, 150, 50), "Plano Ov(a)")){
+						NH3.animation.PlayQueued("plano_Ova");
 					
 				}
-				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano O(b)")){
-						NH3.animation.PlayQueued("plano_sb");
+				if(GUI.Button(new Rect(170, 15, 150, 50), "Plano Ov(b)")){
+						NH3.animation.PlayQueued("plano_Ovb");
 						
 				}
-				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano O(c)")){
-						NH3.animation.PlayQueued("plano_sc");
+				if(GUI.Button(new Rect(15, 70, 150, 50), "Plano Ov(c)")){
+						NH3.animation.PlayQueued("plano_Ovc");
 						
 				}
 				if(GUI.Button(new Rect(170, 70, 150, 50), "Todos los Planos")){
 						NH3.animation.PlayQueued("plano_todos");
 				}
-				if(GUI.Button(new Rect(15, 125, 150, 50), "Todos los Planos")){
+				if(GUI.Button(new Rect(15, 125, 150, 50), "Quitar Planos")){
 						NH3.animation.PlayQueued("quieto");
 				}
 			}

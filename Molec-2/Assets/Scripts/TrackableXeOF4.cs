@@ -9,7 +9,7 @@ using UnityEngine;
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
 /// </summary>
-public class TrackableXe3OF4 : MonoBehaviour,
+public class TrackableXeOF4 : MonoBehaviour,
                                             ITrackableEventHandler
 {
     #region PRIVATE_MEMBER_VARIABLES
